@@ -1,0 +1,9 @@
+name: Atualizado
+on: push
+jobs:
+  ci-angular:
+   name: Ubuntu
+   runs-on: ubuntu-latest
+   steps:
+     - name: Verificado
+       run: echo OK
